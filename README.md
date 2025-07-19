@@ -38,20 +38,22 @@ This analysis was based on the GBD 2021 dataset and focused on trends in:
 
 All scripts are modular and can be run in sequence:
 
-1. `01_preprocessing.R`: Loads and cleans data
-2. `02_kml_clustering.R`: Applies KmL clustering
-3. `03_visualization.R`: Generates figures and maps
-
+1. `01_risk_cluster_analysis.R`: Clustering analysis of air pollution, temperature, and occupational risks
+2. `02_risk_dalys_deaths_clustering.R`:Clustering of DALYs and Deaths by risk factors
+3. `03_vpidd_multivariate_clustering.R`: Multivariate clustering of CRD, COPD, and Asthma (Prevalence, Incidence, Deaths, DALYs)
+4. `04_genderwise_crd_clustering.R`: Gender-specific clustering of ASMR for CRDs
+5. `05_air_occupational_clustering.R`: Clustering of CRD burden due to air pollution and occupational exposure
+6. `06_iran_cluster_map.R`: Mapping the clusters of CRD burden across Iranian provinces
 ## 📊 Citation
 
 If you use this code or analysis in your work, please cite:
 
-> Loeloe MS, Tabatabaei SM, Sefidkar R, Mehrparvar AH, Jambarsang S. National, Subnational, and Risk-Attributed Burden of Chronic Respiratory Diseases in Iran (1990–2021): A Longitudinal Clustering Analysis of GBD 2021 Data. *Health Science Reports*. 2025.
+> Loeloe MS, Tabatabaei SM, Sefidkar R, Mehrparvar AH, Jambarsang S. National, Subnational, and Risk-Attributed Burden of Chronic Respiratory Diseases in Iran (1990–2021): A Longitudinal Clustering Analysis of GBD 2021 Data. .... 2025.
 
 ## 📬 Contact
 
 For questions or feedback, please contact:  
-📧 Sara Jambarsang – [S.Jambarsang@gmail.com](mailto:S.Jambarsang@gmail.com)
+📧 Mohammad Sadegh Loeloe – [mslbiostat@gmail.com](mailto:mslbiostat@gmail.com)
 
 ## 📄 License
 
