@@ -18,8 +18,7 @@ This analysis was based on the GBD 2021 dataset and focused on trends in:
 ## 📂 Repository Structure
 
 - `scripts/`: Main R scripts for data preparation, clustering (KmL), and visualization
-- `data/`: Input datasets (not included for licensing reasons; see notes below)
-- `output/`: Figures and cluster membership results
+- `data/`: Input datasets ( CRD, COPD, and Asthma (Prevalence, Incidence, Deaths, DALYs))
 - `README.md`: This project documentation
 - `LICENSE`: Open-source MIT License
 
