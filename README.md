@@ -57,3 +57,5 @@ For questions or feedback, please contact:
 ## 📄 License
 
 This project is licensed under the MIT License — see the `LICENSE` file for details.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16758060.svg)](https://doi.org/10.5281/zenodo.16758060)
